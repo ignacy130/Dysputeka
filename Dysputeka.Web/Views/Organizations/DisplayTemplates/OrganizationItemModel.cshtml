@@ -1,0 +1,18 @@
+﻿@model PortalKol.Web.Controllers.OrganizationItemModel
+
+<div class="organization col-md-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            @Model.Name
+        </div>
+        <div class="panel-body">
+            @Model.Description
+        </div>
+        <div class="panel-footer">
+            @foreach (var tag in Model.Tags)
+            {
+                <span class="label label-default"><a class="tag" href="@String.Format("#{0}", tag)">@String.Format("#{0}", tag)</a></span>
+            }
+        </div>
+    </div>
+</div>
