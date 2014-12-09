@@ -13,7 +13,7 @@ namespace Dysputeka.Web.Infrastructure
                 .SetProperty(Environment.CurrentSessionContextClass, "web")
                 .SetProperty(Environment.FormatSql, "true")
                 .SetProperty(Environment.GenerateStatistics, "true")
-                .SetProperty(Environment.ConnectionStringName, "portalKol");
+                .SetProperty(Environment.ConnectionStringName, "dysputeka");
         }
     }
 }
