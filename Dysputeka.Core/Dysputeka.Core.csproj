@@ -51,8 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Entities\Organization.cs" />
-    <Compile Include="Domain\Entities\Tag.cs" />
+    <Compile Include="Domain\Entities\Category.cs" />
+    <Compile Include="Domain\Entities\User.cs" />
+    <Compile Include="Domain\Entities\Question.cs" />
     <Compile Include="Infrastructure\Base.cs" />
     <Compile Include="Infrastructure\Checks\ICheck.cs" />
     <Compile Include="Infrastructure\Checks\ICheckBus.cs" />
