@@ -1,4 +1,4 @@
-﻿namespace PortalKol.Core.Infrastructure.Events
+﻿namespace Dysputeka.Core.Infrastructure.Events
 {
     public interface IEvent<in TEvent>
     {

@@ -1,4 +1,4 @@
-﻿namespace PortalKol.Core.Infrastructure.Commands
+﻿namespace Dysputeka.Core.Infrastructure.Commands
 {
     public interface ICommandBus
     {

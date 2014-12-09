@@ -1,9 +1,9 @@
-﻿using PortalKol.Core.Infrastructure.Checks;
-using PortalKol.Core.Infrastructure.Commands;
-using PortalKol.Core.Infrastructure.Events;
-using PortalKol.Core.Infrastructure.Queries;
+﻿using Dysputeka.Core.Infrastructure.Checks;
+using Dysputeka.Core.Infrastructure.Commands;
+using Dysputeka.Core.Infrastructure.Events;
+using Dysputeka.Core.Infrastructure.Queries;
 
-namespace PortalKol.Core.Infrastructure
+namespace Dysputeka.Core.Infrastructure
 {
     public interface IAssistant
     {

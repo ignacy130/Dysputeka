@@ -5,7 +5,7 @@ using NHibernate.Cfg;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Tool.hbm2ddl;
 
-namespace PortalKol.Core.Infrastructure.Data
+namespace Dysputeka.Core.Infrastructure.Data
 {
     public interface ISessionFactoryProvider
     {

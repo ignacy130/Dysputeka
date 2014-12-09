@@ -1,4 +1,4 @@
-﻿namespace PortalKol.Core.Infrastructure.Checks
+﻿namespace Dysputeka.Core.Infrastructure.Checks
 {
     public interface ICheckBus
     {

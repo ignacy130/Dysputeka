@@ -1,9 +1,9 @@
 ﻿using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
-using PortalKol.Core;
+using Dysputeka.Core;
 
-namespace PortalKol.Web
+namespace Dysputeka.Web
 {
     public class ContainerConfig
     {

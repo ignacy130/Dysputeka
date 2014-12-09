@@ -3,7 +3,7 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 
-namespace PortalKol.Web.Installers
+namespace Dysputeka.Web.Installers
 {
     public class MvcInstaller : IWindsorInstaller
     {

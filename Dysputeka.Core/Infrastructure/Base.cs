@@ -1,8 +1,8 @@
 ﻿using Castle.Core.Logging;
+using Dysputeka.Core.Infrastructure.Data;
 using NHibernate;
-using PortalKol.Core.Infrastructure.Data;
 
-namespace PortalKol.Core.Infrastructure
+namespace Dysputeka.Core.Infrastructure
 {
     public class Base
     {

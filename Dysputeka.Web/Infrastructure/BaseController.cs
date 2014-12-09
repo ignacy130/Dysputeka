@@ -1,10 +1,10 @@
 ﻿using System.Web.Mvc;
+using Dysputeka.Core.Infrastructure;
+using Dysputeka.Core.Infrastructure.Commands;
+using Dysputeka.Core.Infrastructure.Data;
 using NHibernate;
-using PortalKol.Core.Infrastructure;
-using PortalKol.Core.Infrastructure.Commands;
-using PortalKol.Core.Infrastructure.Data;
 
-namespace PortalKol.Web.Infrastructure
+namespace Dysputeka.Web.Infrastructure
 {
     public class BaseController : Controller
     {

@@ -1,13 +1,13 @@
 ﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
-using PortalKol.Core.Infrastructure;
-using PortalKol.Core.Infrastructure.Checks;
-using PortalKol.Core.Infrastructure.Commands;
-using PortalKol.Core.Infrastructure.Events;
-using PortalKol.Core.Infrastructure.Queries;
+using Dysputeka.Core.Infrastructure;
+using Dysputeka.Core.Infrastructure.Checks;
+using Dysputeka.Core.Infrastructure.Commands;
+using Dysputeka.Core.Infrastructure.Events;
+using Dysputeka.Core.Infrastructure.Queries;
 
-namespace PortalKol.Web.Installers
+namespace Dysputeka.Web.Installers
 {
     public class ServiceInstaller : IWindsorInstaller
     {

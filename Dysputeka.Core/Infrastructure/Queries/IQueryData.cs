@@ -1,4 +1,4 @@
-﻿namespace PortalKol.Core.Infrastructure.Queries
+﻿namespace Dysputeka.Core.Infrastructure.Queries
 {
     public interface IQueryData<out T>
     {

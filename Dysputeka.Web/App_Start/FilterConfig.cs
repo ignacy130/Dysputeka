@@ -1,8 +1,8 @@
 ﻿using System.Web;
 using System.Web.Mvc;
-using PortalKol.Web.Infrastructure;
+using Dysputeka.Web.Infrastructure;
 
-namespace PortalKol.Web
+namespace Dysputeka.Web
 {
     public class FilterConfig
     {

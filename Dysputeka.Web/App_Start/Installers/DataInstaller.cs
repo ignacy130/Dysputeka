@@ -1,11 +1,11 @@
 ﻿using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
+using Dysputeka.Core.Infrastructure.Data;
+using Dysputeka.Web.Infrastructure;
 using NHibernate;
-using PortalKol.Core.Infrastructure.Data;
-using PortalKol.Web.Infrastructure;
 
-namespace PortalKol.Web.Installers
+namespace Dysputeka.Web.Installers
 {
     public class DataInstaller : IWindsorInstaller
     {

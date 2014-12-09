@@ -1,9 +1,9 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using PortalKol.Web.Infrastructure;
+using Dysputeka.Web.Infrastructure;
 
-namespace PortalKol.Web
+namespace Dysputeka.Web
 {
     public class MvcApplication : HttpApplication
     {

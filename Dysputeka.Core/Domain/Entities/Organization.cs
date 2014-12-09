@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
+using Dysputeka.Core.Infrastructure;
 using NHibernate.Mapping;
-using PortalKol.Core.Infrastructure;
 
-namespace PortalKol.Core.Domain.Entities
+namespace Dysputeka.Core.Domain.Entities
 {
     public class Organization : Entity
     {

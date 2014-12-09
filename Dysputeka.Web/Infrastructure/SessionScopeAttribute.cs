@@ -1,8 +1,8 @@
 ﻿using System.Web.Mvc;
-using PortalKol.Core;
-using PortalKol.Core.Infrastructure.Data;
+using Dysputeka.Core;
+using Dysputeka.Core.Infrastructure.Data;
 
-namespace PortalKol.Web.Infrastructure
+namespace Dysputeka.Web.Infrastructure
 {
     public class SessionScopeAttribute : ActionFilterAttribute
     {

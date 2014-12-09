@@ -2,7 +2,7 @@
 using NHibernate;
 using NHibernate.Context;
 
-namespace PortalKol.Core.Infrastructure.Data
+namespace Dysputeka.Core.Infrastructure.Data
 {
     public interface ISessionProvider
     {

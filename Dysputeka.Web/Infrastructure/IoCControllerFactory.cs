@@ -3,7 +3,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Castle.Windsor;
 
-namespace PortalKol.Web.Infrastructure
+namespace Dysputeka.Web.Infrastructure
 {
     public class IoCControllerFactory : DefaultControllerFactory
     {

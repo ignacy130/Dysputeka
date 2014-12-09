@@ -1,7 +1,7 @@
-﻿using NHibernate.Cfg;
-using PortalKol.Core.Infrastructure.Data;
+﻿using Dysputeka.Core.Infrastructure.Data;
+using NHibernate.Cfg;
 
-namespace PortalKol.Web.Infrastructure
+namespace Dysputeka.Web.Infrastructure
 {
     public class WebSessionFactoryConfigurator : ISessionFactoryConfigurator
     {

@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Dysputeka.Core.Infrastructure.Data;
 using NHibernate.Tool.hbm2ddl;
-using PortalKol.Core.Infrastructure.Data;
 
-namespace PortalKol.Web.Controllers
+namespace Dysputeka.Web.Controllers
 {
     public class SchemaController : Controller
     {

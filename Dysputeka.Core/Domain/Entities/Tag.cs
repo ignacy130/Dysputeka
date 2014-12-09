@@ -1,6 +1,6 @@
-﻿using PortalKol.Core.Infrastructure;
+﻿using Dysputeka.Core.Infrastructure;
 
-namespace PortalKol.Core.Domain.Entities
+namespace Dysputeka.Core.Domain.Entities
 {
     public class Tag : Entity
     {

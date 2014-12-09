@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Specialized;
 
-namespace PortalKol.Core.Infrastructure.Commands
+namespace Dysputeka.Core.Infrastructure.Commands
 {
     public class CommandData
     {

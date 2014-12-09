@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 using NHibernate.Linq;
-using PortalKol.Core.Domain.Entities;
-using PortalKol.Web.Infrastructure;
+using Dysputeka.Core.Domain.Entities;
+using Dysputeka.Web.Infrastructure;
 
-namespace PortalKol.Web.Controllers
+namespace Dysputeka.Web.Controllers
 {
     public class OrganizationsController : BaseController
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Castle.Windsor;
 
-namespace PortalKol.Core
+namespace Dysputeka.Core
 {
     public static class IoC
     {
