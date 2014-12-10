@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Dysputeka.Core.Domain.Entities.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@Html.DisplayFor(model => model)
+

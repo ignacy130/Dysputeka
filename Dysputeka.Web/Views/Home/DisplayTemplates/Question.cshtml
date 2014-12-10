@@ -5,27 +5,12 @@
 
 
 <div>
-    <h4>Question</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
+    <h2>@Html.ActionLink(Model.Title,"Index","Question",new {Id = Model.Id },null)</h2> @*  zamienia na link <a href="Index/Question/idpytania" >Tytuł</a>"*@ 
+    <div>  @* Taki link jeszcze nie istnieje *@
+        
+        @Html.DisplayFor(model => model.Content) @* wyświetla treść *@
+    </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
-
-    </dl>
 </div>
-<p>
-
-</p>
+<hr/>
+<br/>
