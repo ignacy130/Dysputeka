@@ -7,7 +7,7 @@ namespace Dysputeka.Core.Infrastructure
     public class Base
     {
         public ISessionProvider SessionProvider { get; set; }
-        public ISession Session { get { return SessionProvider.Session; } }
+        public ISession Data { get { return SessionProvider.Session; } }
         public IAssistant Please { get; set; }
         public ILogger Logger { get; set; }
         public IDateTimeGetter DateTime { get; set; }

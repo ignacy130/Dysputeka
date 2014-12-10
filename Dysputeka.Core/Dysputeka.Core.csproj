@@ -51,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Commands\CreateCategory.cs" />
+    <Compile Include="Domain\Commands\DeleteCategory.cs" />
+    <Compile Include="Domain\Commands\EditCategory.cs" />
     <Compile Include="Domain\Entities\Category.cs" />
     <Compile Include="Domain\Entities\User.cs" />
     <Compile Include="Domain\Entities\Question.cs" />
