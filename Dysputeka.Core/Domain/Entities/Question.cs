@@ -9,6 +9,8 @@ namespace Dysputeka.Core.Domain.Entities
         public virtual string Content { get; set; }
 
         public virtual User User { get; set; }
-        public virtual Category Categorie { get; set; } 
+        public virtual Category Categorie { get; set; }
+        public virtual ISet<Answer> Answers { get; set; }
+
     }
 }

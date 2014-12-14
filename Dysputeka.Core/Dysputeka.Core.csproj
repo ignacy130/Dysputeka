@@ -54,9 +54,12 @@
     <Compile Include="Domain\Commands\CreateCategory.cs" />
     <Compile Include="Domain\Commands\DeleteCategory.cs" />
     <Compile Include="Domain\Commands\EditCategory.cs" />
+    <Compile Include="Domain\Entities\Answer.cs" />
     <Compile Include="Domain\Entities\Category.cs" />
+    <Compile Include="Domain\Entities\Rate.cs" />
     <Compile Include="Domain\Entities\User.cs" />
     <Compile Include="Domain\Entities\Question.cs" />
+    <Compile Include="Domain\Entities\Vote.cs" />
     <Compile Include="Infrastructure\Base.cs" />
     <Compile Include="Infrastructure\Checks\ICheck.cs" />
     <Compile Include="Infrastructure\Checks\ICheckBus.cs" />
