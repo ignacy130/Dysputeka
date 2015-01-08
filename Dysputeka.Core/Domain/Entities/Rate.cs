@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dysputeka.Core.Domain.Entities
 {
-    enum Rate
+    public enum Rate
     {
         YES,
         NO

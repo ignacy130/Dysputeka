@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Commands\CreateAnswer.cs" />
     <Compile Include="Domain\Commands\CreateCategory.cs" />
     <Compile Include="Domain\Commands\DeleteCategory.cs" />
     <Compile Include="Domain\Commands\EditCategory.cs" />
