@@ -57,6 +57,7 @@
     <Compile Include="Domain\Commands\EditCategory.cs" />
     <Compile Include="Domain\Entities\Answer.cs" />
     <Compile Include="Domain\Entities\Category.cs" />
+    <Compile Include="Domain\Entities\VoteEnum.cs" />
     <Compile Include="Domain\Entities\Rate.cs" />
     <Compile Include="Domain\Entities\User.cs" />
     <Compile Include="Domain\Entities\Question.cs" />

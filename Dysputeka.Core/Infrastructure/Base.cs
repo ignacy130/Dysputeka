@@ -10,6 +10,6 @@ namespace Dysputeka.Core.Infrastructure
         public ISession Data { get { return SessionProvider.Session; } }
         public IAssistant Please { get; set; }
         public ILogger Logger { get; set; }
-        public IDateTimeGetter DateTime { get; set; }
+        public IDateTimeGetter DateTimeGetter { get; set; }
     }
 }

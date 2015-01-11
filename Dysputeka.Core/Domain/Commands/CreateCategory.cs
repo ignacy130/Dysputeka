@@ -39,8 +39,9 @@ namespace Dysputeka.Core.Domain.Commands
                 /*
                  * Title = command.Title,                                           // w ten sposób wypełniamy pola typu trostego int string...
                  * Organization = Data.Load<Organization>(command.OrganizationId),  // w ten sposób wypełniamy powiązania między modelami 
-                 * DateTime =  DateTimeGetter.GetCurrentDateTime(),                 // w ten sposób wypełniamy date
+                  DateTime =  DateTimeGetter.GetCurrentDateTime()                 // w ten sposób wypełniamy date
                  */
+                 
 
             Data.Save(category);
         }

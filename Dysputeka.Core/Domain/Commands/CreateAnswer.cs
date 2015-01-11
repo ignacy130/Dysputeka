@@ -1,4 +1,5 @@
 ﻿using Dysputeka.Core.Domain.Entities;
+using Dysputeka.Core.Infrastructure;
 using Dysputeka.Core.Infrastructure.Commands;
 using System;
 using System.Collections.Generic;
@@ -10,19 +11,19 @@ namespace Dysputeka.Core.Domain.Commands
 {
     public class CreateAnswer : CommandData
     {
-        public string Content { get; set; }
-
-        public DateTime CreateDate { get; set; }
-        public DateTime EditDate { get; set; }
-        public Rate Rate { get; set; }
-        public Vote Vote { get; set; }
-        public User User { get; set; }
-        public Question Question { get; set; }
-
-        public CreateAnswer(string Content)
+        public CreateAnswer(string content, Rate rate, Guid userId, Guid questionId)
         {
-            this.Content = Content;
+            Content = content;
+            Rate = rate;
+            UserId = userId;
+            QuestionId = questionId;
         }
+
+        public string Content { get; set; }
+        public Rate Rate { get; set; }
+        public Guid UserId { get; set; }
+        public Guid QuestionId { get; set; }
+
     }
 
     public class CreateAnswerCommand : CommandPerformer<CreateAnswer>
@@ -32,12 +33,10 @@ namespace Dysputeka.Core.Domain.Commands
             var answer = new Answer()
             {
                 Content = command.Content,
-                CreateDate = command.CreateDate,
-                EditDate = command.EditDate,
-                Rate = Data.Load<Rate>(command.Rate),
-                Vote = Data.Load<Vote>(command.Vote),
-                User = Data.Load<User>(command.User),
-                Question = Data.Load<Question>(command.Question),
+                CreateDate = DateTimeGetter.GetCurrentDateTime(),
+                Rate = command.Rate,  //to jest enum nie trzeba go w ten sposób ładować 
+                User = Data.Load<User>(command.UserId),
+                Question = Data.Load<Question>(command.QuestionId),
             };
 
             Data.Save(answer);

@@ -9,7 +9,7 @@ namespace Dysputeka.Core.Domain.Entities
 {
     public class Vote : Entity
     {
-        public virtual Vote Opinion { get; set; }
+        public virtual VoteEnum Opinion { get; set; }
 
         public virtual Answer Answer { get; set; }
         public virtual User User { get; set; }

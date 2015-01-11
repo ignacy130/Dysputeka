@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Dysputeka.Core.Domain.Entities
 {
-    public enum Rate
+    public enum VoteEnum
     {
-        Yes,
-        No
+        Plus,
+        Minus
     }
 }
